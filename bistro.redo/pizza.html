@@ -17,7 +17,8 @@
 <p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
  <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
 
-Your Information
+   <fieldset>
+   <h4><legend>Your Information</legend></h4>
 <ul>
   <li>Name:<input type= "text" name= "customername"></label></li>
   <li>Address:<input type= "text" name= "customeraddress"></label></li>
@@ -27,22 +28,26 @@ Your Information
   <textarea name= "instructions" rows="4" cols ="60"
   maxlength= "400" placeholder= "No more than 400 characters long"></textarea></li>
 </ul>
-</form>
+</fieldset>
 
 
 <h2>Design Your Dream Pizza:</h2>
 
 <p>Pizza specs<p>
 
-<p>Crust <em>(Choose one)</em>:</p>
+<<fieldset>
+<h3><legend>Pizza specs</legend></h3>
+<fieldset>
+<h4>  <legend>Crust <em>(Choose one)</em>:</legend></h4>
 <ul>
   <li><label><input type="radio" name="crust" value="white"> Classic white</label></li>
   <li><label><input type="radio" name="crust" value="multigrain"> Multigrain</label></li>
   <li><label><input type="radio" name="crust" value="cheese-stuffed"> Cheese-stuffed crust</label></li>
   <li><label><input type="radio" name="crust" value="glutenfree"> Gluten-free</label></li>
 </ul>
-
-<p>Toppings <em>(Choose as many as you want)</em>:</p>
+</fieldset>
+<fieldset>
+<h4><legend>Toppings <em>(Choose as many as you want)</em>:</legend></h4>
 <ul>
   <li><label><input type="checkbox" name="toppings[]" value="redsauce"> Red sauce</label></li>
   <li><label><input type="checkbox" name="toppings[]" value="whitesauce"> White sauce</label></li>
@@ -52,9 +57,9 @@ Your Information
   <li><label><input type="checkbox" name="toppings[]" value="peppers"> Peppers</label></li>
   <li><label><input type="checkbox" name="toppings[]" value="anchovies"> Anchovies</label></li>
 </ul>
-
-<p>Number</p>
-<p>How many pizzas:<p>
+</fieldset>
+<fieldset>
+<h4><legend>Number</legend></h4>
   <select name="pizzas"
   size="1">
     <option>1</option>
@@ -63,11 +68,8 @@ Your Information
     <option>4</option>
     <option>5</option>
     <option>6</option>
-  </p>
-  <br>
+</fieldset>
 <p><input type="submit" value="Bring me a pizza!"><input type="reset"></p>
-</br>
-
 </form>
 </body>
 </html>
