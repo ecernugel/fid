@@ -4,8 +4,9 @@ body {
   font-size: 100%;
   line-height: 175%;
   margin: 0 15% 0;
-  background: #FFFAFA
+  background: #FFFA url(images/gooseshadow.png) no-repeat center 100px fixed;
 }
+
 a:link {
   color: #708090;
 }
