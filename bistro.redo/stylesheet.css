@@ -2,10 +2,10 @@
 body {
   background: linear-gradient(#faf2e4, #DDF1);
   margin: 0 15%;
-  font-family: 'Roboto', sans-serif;
+  font-family: Ariel, sans-serif;
 }
 a:link {
-  color: #57b1dc;
+  color: #708090;
 }
 a:visited {
   color: #937393;
