@@ -10,14 +10,14 @@ a:link {
   color: #708090;
 }
 a:visited {
-  color: #663399;
+  color: #937393;
 }
 a:focus, a:hover {
-  color: #CDA2DF;
+  color: #138f9c;
   background-color: #fff;
 }
 a:active {
-  color: #f0f;
+  color: #16e9e9;
   background-color: #fff;
 }
 h1 {
@@ -33,7 +33,7 @@ h1 {
 h2 {
   color: #d1633c;
   font-size: 1em;
-  text-shadow: 1px 1px  orange;
+  text-shadow: 1px 1px  rgb(71, 179, 184);
 }
 footer {
   border-top: 1 px solid #57b1dc;
@@ -46,4 +46,3 @@ footer img {
   margin-left: .5em;
   margin-right: .5em;
 }
-
