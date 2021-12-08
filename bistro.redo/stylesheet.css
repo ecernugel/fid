@@ -1,8 +1,10 @@
 @charset "UTF-8";
 body {
-  background: linear-gradient(#faf2e4, #DDF1);
-  margin: 0 15%;
-  font-family: Ariel, sans-serif;
+  font-family: Ariel, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #FFFAFA
 }
 a:link {
   color: #708090;
